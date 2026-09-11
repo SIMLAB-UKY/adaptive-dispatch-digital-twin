@@ -1,0 +1,5 @@
+route_id,origin,destination,material,distance_km,average_grade_percent
+R01,shovel_1,crusher,ore,2.5,4.0
+R02,shovel_2,crusher,ore,3.2,5.5
+R03,shovel_1,waste_dump,waste,1.8,3.0
+R04,shovel_2,waste_dump,waste,2.4,4.5
