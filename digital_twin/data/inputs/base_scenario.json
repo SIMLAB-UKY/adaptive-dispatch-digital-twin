@@ -1,0 +1,25 @@
+{
+  "scenario_name": "base_case",
+  "random_seed": 42,
+  "simulation_duration_hours": 8,
+  "fleet": {
+    "trucks": {
+      "count": 6,
+      "capacity_tonnes": 100,
+      "loaded_speed_kph": 25,
+      "empty_speed_kph": 35
+    },
+    "shovels": {
+      "count": 2,
+      "loading_time_minutes": 3
+    }
+  },
+  "destinations": {
+    "crusher": {
+      "dumping_time_minutes": 1.5
+    },
+    "waste_dump": {
+      "dumping_time_minutes": 2
+    }
+  }
+}
